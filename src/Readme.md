@@ -12,3 +12,16 @@ To run the program or function DO;
 
 - During the division operation , if you enter a number to be divided by zero it will return an error messaage ("unsuppoerted operator")
 
+**installation**
+
+To install and use the Rust CLI Calculator:
+
+    Clone the repository:
+
+    git clone https://github.com/your-username/rust-cli-calculator.git
+    cd rust-cli-calculator
+
+Run the application in terminal:
+
+``cargo run``
+
