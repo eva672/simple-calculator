@@ -11,6 +11,9 @@ fn calculator(a: f64, b: f64, operator: char) -> Result<f64, String> {
         '+' => Ok(a + b),
         '-' => Ok(a - b),
         '*' => Ok(a * b),
+        '%' => Ok(a % b),
+        '^' => Ok(a.powf(b)),
+        '?' => Ok(a.sqrt()),
         '/' => {
             if b == 0.0 {
                 Err(String::from("Error: Division by zero"))
@@ -57,4 +60,6 @@ fn main() {
         Err(e) => println!("{}", e),
     }
 }
+
+
 
